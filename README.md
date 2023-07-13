@@ -2,11 +2,11 @@
 
 Warbler is a Twitter-like application where you can implement login, logout, follow a user, and be followed by other users.
 
-### Description
+### Description :notebook:
 
 Warbler is our first project at Rithm, and it has been an incredible opportunity for my partner and me to enhance our programming skills. We worked with a slightly larger codebase during its development, which was a new and valuable experience for us. Embracing this challenge has helped us expand our abilities, adapt to new situations, and develop our overall skillset.
 
-### Tech Stack 
+### Tech Stack :school:
 
 Javascript | Python | Flask | SQLAlchemy | Jinja
 
@@ -19,7 +19,7 @@ Javascript | Python | Flask | SQLAlchemy | Jinja
 - Enhance security by implementing password hashing with bcrypt.
 - Write comprehensive tests to ensure functionality and reliability.
 
-### Install & Run
+### Install & Run :runner:
 
 1. Create a virtual environment and install requirements:
 ```
@@ -47,7 +47,7 @@ $ python3 seed.py
 5. open a browser tab and paste in the URL "http://localhost:5001"
    
 
-TO-DO's
+TO-DO's :pencil2:
 
 - Additional testing
 
