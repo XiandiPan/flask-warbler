@@ -10,6 +10,22 @@ Warbler is our first project at Rithm, and it has been an incredible opportunity
 
 Javascript | Python | Flask | SQLAlchemy | Jinja
 
+### Features (Added by us)
+
+- Implement user authentication and authorization.
+- Enable authenticated users to edit and update their profiles.
+- Allow users to follow and unfollow other users.
+- Implement the ability for users to like and unlike posts.
+- Enhance security by implementing password hashing with bcrypt.
+- Write comprehensive tests to ensure functionality and reliability.
+
+### Install & Run
+
+
+
+
+
+
 
 
 
