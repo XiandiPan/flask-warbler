@@ -21,6 +21,31 @@ Javascript | Python | Flask | SQLAlchemy | Jinja
 
 ### Install & Run
 
+1. Create a virtual environment and install requirements:
+```
+$ python3 -m venv venv
+$ source venv/bin/activate
+$ pip3 install -r requirements.txt
+```
+2. set up the database (PostgreSQL)
+
+```
+$ psql
+=# CREATE DATABASE warbler;
+(ctrl+D)
+$ python3 seed.py
+```
+3. Add a .env file with:
+   ```
+   SECRET_KEY=(any secret key you want)
+   DATABASE_URL=postgresql:///warbler
+   ```
+4. Start the server
+   ```
+   $ flask run -p 5001
+   ```
+5. open a browser tab and paste in the URL "http://localhost:5001"
+   
 
 
 
