@@ -47,6 +47,9 @@ $ python3 seed.py
 5. open a browser tab and paste in the URL "http://localhost:5001"
    
 
+TO-DO's
+
+- Additional testing
 
 
 
