@@ -44,6 +44,7 @@ $ python3 seed.py
    $ flask run -p 5001
    ```
 5. open a browser tab and paste in the URL "http://localhost:5001"
+6. try to search "tuckerdiane" and follow him
    
 
 TO-DO's :pencil2:
