@@ -27,19 +27,18 @@ $ python3 -m venv venv
 $ source venv/bin/activate
 $ pip3 install -r requirements.txt
 ```
-2. set up the database (PostgreSQL)
-
+2. Add a .env file with:
+   ```
+   SECRET_KEY=(any secret key you want)
+   DATABASE_URL=postgresql:///warbler
+   ```
+3. set up the database (PostgreSQL)
 ```
 $ psql
 =# CREATE DATABASE warbler;
 (ctrl+D)
 $ python3 seed.py
 ```
-3. Add a .env file with:
-   ```
-   SECRET_KEY=(any secret key you want)
-   DATABASE_URL=postgresql:///warbler
-   ```
 4. Start the server
    ```
    $ flask run -p 5001
