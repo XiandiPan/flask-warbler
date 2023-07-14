@@ -49,6 +49,9 @@ $ python3 seed.py
 TO-DO's :pencil2:
 
 - Additional testing
+- Add admin User
+- DRY up the code
+  
 
 
 
