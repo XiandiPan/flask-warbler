@@ -132,8 +132,7 @@ def logout():
     return redirect('/login')
 
 
-    # IMPLEMENT THIS AND FIX BUG
-    # DO NOT CHANGE METHOD ON ROUTE
+  
 
 
 ##############################################################################
